@@ -7,11 +7,10 @@ def badge_maker(name)
 end
   
   def batch_badge_creator(attendees)
-    messages = []
-    attendees.each do |badges|
+
+    attendees.each.map do |badges|
     "Hello, my name is #{badges}."
-  end
-  messages
+  
 end
 
   def assign_rooms(attendees)
