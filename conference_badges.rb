@@ -10,7 +10,7 @@ end
 
     attendees.each.map do |badges|
     "Hello, my name is #{badges}."
-  
+end  
 end
 
   def assign_rooms(attendees)
