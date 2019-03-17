@@ -21,7 +21,8 @@ end
   end
 end
 
-def printer()
+def printer(attendees)
+  
 
 
 
